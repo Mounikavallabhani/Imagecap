@@ -1,0 +1,23 @@
+<LinearLayout android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+            <ImageView
+                android:id="@+id/profilePic_iv"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:onClick="takephoto"
+                android:background="@drawable/photo"
+                android:layout_margin="15dp"
+            />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="save"
+        android:id="@+id/saveBtn"/>
+    </LinearLayout>
